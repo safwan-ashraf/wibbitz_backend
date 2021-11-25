@@ -12,12 +12,14 @@ COMPANY_SIZE = (
     ("2","11-50"),
     ("3","51-200"),
     ("4","201-500"),
+    ("5","501-100"),
 )
 
 INDUSTRY = (
     ("1","Agriculture"),
     ("2","Banking & Finance"),
     ("3","Business Services & Software"),
+    ("4","Automobile"),
 )
 
 JOB_ROLE = (
@@ -44,10 +46,11 @@ class Subscribe(models.Model):
 class Customer(models.Model):
     name = models.CharField(max_length=255)
     image = models.FileField(upload_to="customers/")
+    white_logo = models.FileField(upload_to="customers/",blank=True,null=True)
 
     class Meta:
         db_table="web_customer"
-        ordering=["id"]
+        ordering=["-id"]
 
     def __str__(self):
         return self.name 

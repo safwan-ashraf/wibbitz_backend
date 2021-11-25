@@ -11,6 +11,7 @@ from web.forms import ContactForm
 # Create your views here.
 def index(request):
     customers = Customer.objects.all()
+    latest_customers = Customer.objects.all()[:4]
     features = Feature.objects.all()
     video_blogs = VideoBlog.objects.all()[:3]
     testimonials = Testimonial.objects.filter(is_featured=True)[:2]
@@ -32,7 +33,8 @@ def index(request):
         "blog_post_blogs" : blog_post_blogs,
         "webinar_blogs" : webinar_blogs,
         "report_blogs" : report_blogs,
-        "form": form
+        "form": form,
+        "latest_customers" : latest_customers,
     }
     return render(request,"index.html",context=context)
 
@@ -61,33 +63,11 @@ def subscribe(request):
     return HttpResponse(json.dumps(response_data),content_type="application/javascript")
 
 
-def contact(Request):
-    email = request.POST.get("email")
-    # the value we are passing inside get is the the value inside the name of input tags in our html
-    first_name = request.POST.get("first_name")
-    last_name = request.POST.get("last_name")
-    company = request.POST.get("company")
-    company_size = request.POST.get("company_size")
-    industry = request.POST.get("industry")
-    job_role = request.POST.get("job_role")
-    country = request.POST.get("country")
-    user_agreement = request.POST.get("user_agreement")
+def contact(request):
+    form = ContactForm(request.POST)
+    if form.is_valid():
+        form.save()
 
-
-    if not Contact.objects.filter(email=email).exists():
-        Contact.objects.create(
-            email = email,
-            # left side value depends on the value in the models.py for this model(here, Contact)
-            # right side value depwnds on value in the current function, i.e def contact(Request)
-            first_name = first_name,
-            last_name = last_name,
-            company = company,
-            company_size = company_size,
-            industry = industry,
-            job_role = job_role,
-            country = country,
-            user_agreement = user_agreement
-        )
 
         response_data = {
             "status" : "success",
