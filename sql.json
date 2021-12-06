@@ -1,0 +1,1035 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add subscribe",
+    "content_type": 7,
+    "codename": "add_subscribe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change subscribe",
+    "content_type": 7,
+    "codename": "change_subscribe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete subscribe",
+    "content_type": 7,
+    "codename": "delete_subscribe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view subscribe",
+    "content_type": 7,
+    "codename": "view_subscribe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add customer",
+    "content_type": 8,
+    "codename": "add_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change customer",
+    "content_type": 8,
+    "codename": "change_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete customer",
+    "content_type": 8,
+    "codename": "delete_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view customer",
+    "content_type": 8,
+    "codename": "view_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add feature",
+    "content_type": 9,
+    "codename": "add_feature"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change feature",
+    "content_type": 9,
+    "codename": "change_feature"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete feature",
+    "content_type": 9,
+    "codename": "delete_feature"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view feature",
+    "content_type": 9,
+    "codename": "view_feature"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add video blog",
+    "content_type": 10,
+    "codename": "add_videoblog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change video blog",
+    "content_type": 10,
+    "codename": "change_videoblog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete video blog",
+    "content_type": 10,
+    "codename": "delete_videoblog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view video blog",
+    "content_type": 10,
+    "codename": "view_videoblog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add testimonial",
+    "content_type": 11,
+    "codename": "add_testimonial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change testimonial",
+    "content_type": 11,
+    "codename": "change_testimonial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete testimonial",
+    "content_type": 11,
+    "codename": "delete_testimonial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view testimonial",
+    "content_type": 11,
+    "codename": "view_testimonial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add marketing feature",
+    "content_type": 12,
+    "codename": "add_marketingfeature"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change marketing feature",
+    "content_type": 12,
+    "codename": "change_marketingfeature"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete marketing feature",
+    "content_type": 12,
+    "codename": "delete_marketingfeature"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view marketing feature",
+    "content_type": 12,
+    "codename": "view_marketingfeature"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 13,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 13,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 13,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 13,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add blog",
+    "content_type": 14,
+    "codename": "add_blog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change blog",
+    "content_type": 14,
+    "codename": "change_blog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete blog",
+    "content_type": 14,
+    "codename": "delete_blog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view blog",
+    "content_type": 14,
+    "codename": "view_blog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add contact",
+    "content_type": 15,
+    "codename": "add_contact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change contact",
+    "content_type": 15,
+    "codename": "change_contact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete contact",
+    "content_type": 15,
+    "codename": "delete_contact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view contact",
+    "content_type": 15,
+    "codename": "view_contact"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$r2a8pcxplVpgjuQ0QqanBw$clD8f6885qMdO/aYxZvb0W64nzmA1IBR6TZkvTYn7Wo=",
+    "last_login": "2021-11-26T06:14:32.410Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-11-23T12:32:18.468Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "web",
+    "model": "subscribe"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "web",
+    "model": "customer"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "web",
+    "model": "feature"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "web",
+    "model": "videoblog"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "web",
+    "model": "testimonial"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "web",
+    "model": "marketingfeature"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "web",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "web",
+    "model": "blog"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "web",
+    "model": "contact"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4t7qtfgvzze2yzuxjeeclvk1dr5chyi5",
+  "fields": {
+    "session_data": ".eJxVzMEOwiAQBNB_4WxIKNCyHr37DWRZFqkaSEp7avx3adKDXmfezC48bmv2W-PFz1FchRKX3ywgvbgcRXxieVRJtazLHORB5Nk2ea-R37fT_h1kbLmvUQEAmqQdjc5xSGY0E1ggR2qIaCA4y4lNULYjtFp1lmAAAo2sJvH5At5pN6Q:1mpUyN:_29l4E0vF7YyLqFwEhggQMC_ytuIYDtb7vde9Wv9CaY",
+    "expire_date": "2021-12-07T12:32:31.700Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nu3dy8a3ahil7px89mr5m56pwmj4y9yr",
+  "fields": {
+    "session_data": ".eJxVzMEOwiAQBNB_4WxIKNCyHr37DWRZFqkaSEp7avx3adKDXmfezC48bmv2W-PFz1FchRKX3ywgvbgcRXxieVRJtazLHORB5Nk2ea-R37fT_h1kbLmvUQEAmqQdjc5xSGY0E1ggR2qIaCA4y4lNULYjtFp1lmAAAo2sJvH5At5pN6Q:1mqUVE:O_NsfPrY3nhhGJ_tJLGEHDwqMeM9qETxHfiQW0R1fZI",
+    "expire_date": "2021-12-10T06:14:32.593Z"
+  }
+},
+{
+  "model": "web.subscribe",
+  "pk": 1,
+  "fields": {
+    "email": "a@example.com"
+  }
+},
+{
+  "model": "web.subscribe",
+  "pk": 2,
+  "fields": {
+    "email": "b@example.com"
+  }
+},
+{
+  "model": "web.subscribe",
+  "pk": 3,
+  "fields": {
+    "email": "c@example.com"
+  }
+},
+{
+  "model": "web.subscribe",
+  "pk": 4,
+  "fields": {
+    "email": "steyp@talrop.com"
+  }
+},
+{
+  "model": "web.customer",
+  "pk": 2,
+  "fields": {
+    "name": "Reuters",
+    "image": "customers/logo-reuters_2qC4q7u.svg",
+    "white_logo": "customers/att_white_L.svg"
+  }
+},
+{
+  "model": "web.customer",
+  "pk": 3,
+  "fields": {
+    "name": "Taboola",
+    "image": "customers/logo-taboola.svg",
+    "white_logo": "customers/bertelsmann_white_L.svg"
+  }
+},
+{
+  "model": "web.customer",
+  "pk": 4,
+  "fields": {
+    "name": "Bllomberg",
+    "image": "customers/logo-bloomberg.svg",
+    "white_logo": "customers/att_white_L_weOUxHj.svg"
+  }
+},
+{
+  "model": "web.customer",
+  "pk": 5,
+  "fields": {
+    "name": "NBC",
+    "image": "customers/logo-nbc.svg",
+    "white_logo": "customers/bertelsmann_white_L_M3GmT9q.svg"
+  }
+},
+{
+  "model": "web.customer",
+  "pk": 6,
+  "fields": {
+    "name": "Birchbox",
+    "image": "customers/logo-birchbox.svg",
+    "white_logo": "customers/bertelsmann_white_L_28BUH7K.svg"
+  }
+},
+{
+  "model": "web.customer",
+  "pk": 7,
+  "fields": {
+    "name": "USA",
+    "image": "customers/USA-Today-logo_24.svg",
+    "white_logo": "customers/att_white_L_igtZtdb.svg"
+  }
+},
+{
+  "model": "web.customer",
+  "pk": 8,
+  "fields": {
+    "name": "Hubspot",
+    "image": "customers/logo-hubspot.svg",
+    "white_logo": "customers/hubspot_white_L.svg"
+  }
+},
+{
+  "model": "web.customer",
+  "pk": 9,
+  "fields": {
+    "name": "TMZ",
+    "image": "customers/logo-tmz.svg",
+    "white_logo": "customers/bloomberg_white_L.svg"
+  }
+},
+{
+  "model": "web.feature",
+  "pk": 1,
+  "fields": {
+    "image": "features/HS.png",
+    "icon": "features/edit-white.svg",
+    "icon_background": "#ff784b",
+    "title": "Match everything to your brand and style",
+    "description": "Add logo watermarks, custom video intros, text overlay styles, a full-spectrum color palette, and upload your brand fonts.",
+    "testimonial_description": "\"Being able to crank out videos consistently, localize them for different regions, and still save resources, time, and energy has been a game changer.\"",
+    "testimonial_author": "Charlie Reiff",
+    "author_designation": "Social Video Editor & Animator",
+    "testimonial_logo": "features/logo-hubspot.svg"
+  }
+},
+{
+  "model": "web.feature",
+  "pk": 2,
+  "fields": {
+    "image": "features/HS_tzYiEQ1.png",
+    "icon": "features/edit-white_lBRu63E.svg",
+    "icon_background": "#ffc837",
+    "title": "Match everything to your brand and style",
+    "description": "Add logo watermarks, custom video intros, text overlay styles, a full-spectrum color palette, and upload your brand fonts.",
+    "testimonial_description": "\"Being able to crank out videos consistently, localize them for different regions, and still save resources, time, and energy has been a game changer.\"",
+    "testimonial_author": "Charlie Reiff",
+    "author_designation": "Social Video Editor & Animator",
+    "testimonial_logo": "features/USA-Today-logo_24.svg"
+  }
+},
+{
+  "model": "web.feature",
+  "pk": 3,
+  "fields": {
+    "image": "features/HS_hc2bv8Z.png",
+    "icon": "features/edit-white_FrhGOg1.svg",
+    "icon_background": "#3cd278",
+    "title": "Speed up video production time",
+    "description": "React to breaking news and trending topics on every platform with one-click resizing to landscape, square, and vertical format.",
+    "testimonial_description": "\"Wibbitz allows us to quickly create templates to share similar videos across multiple sites. A team of three people created videos analyzing several hundred NFL draft picks in just a few hours.\"",
+    "testimonial_author": "Chris Pirrone",
+    "author_designation": "General Manager, Sports Media Group",
+    "testimonial_logo": "features/IHMe55.svg"
+  }
+},
+{
+  "model": "web.videoblog",
+  "pk": 1,
+  "fields": {
+    "image": "video_blogs/review1.jpg",
+    "title": "How NBC enhances their content offering with custom video automation",
+    "logo": "video_blogs/logo-brand-nbc2.svg"
+  }
+},
+{
+  "model": "web.videoblog",
+  "pk": 2,
+  "fields": {
+    "image": "video_blogs/review1_I1iKiTm.jpg",
+    "title": "How HubSpot showcases business trends through video",
+    "logo": "video_blogs/hubspot-1.svg"
+  }
+},
+{
+  "model": "web.videoblog",
+  "pk": 3,
+  "fields": {
+    "image": "video_blogs/review1_KmnIMsR.jpg",
+    "title": "How HousingWire uses Wibbitz to highlight housing market and real estate news",
+    "logo": "video_blogs/HousingWi.svg"
+  }
+},
+{
+  "model": "web.testimonial",
+  "pk": 1,
+  "fields": {
+    "image": "testimonials/Chase-Kroll-920x760normal-1.png",
+    "logo": "testimonials/Hogan_Lovells_logo_white_bg2.svg",
+    "description": "The versatility of Wibbitz allows us to create video for any kind of digital content�making our team more efficient while scaling production.",
+    "name": "Chase Kroll",
+    "designation": "Managing Director",
+    "company_name": "Strategic Communications",
+    "is_featured": true
+  }
+},
+{
+  "model": "web.testimonial",
+  "pk": 2,
+  "fields": {
+    "image": "testimonials/Ken-Gibs-920x760normal-1.png",
+    "logo": "testimonials/BET_logo_black.svg",
+    "description": "The videos we can quickly create with Wibbitz help us engage our audiences on social media, who feel more connected to videos than just an image or text post.",
+    "name": "Ken Gibbs",
+    "designation": "Vice President",
+    "company_name": "Digital Video & Social Content",
+    "is_featured": true
+  }
+},
+{
+  "model": "web.marketingfeature",
+  "pk": 1,
+  "fields": {
+    "image": "marketings/usecase-illustration-marketing.svg",
+    "title": "Marketing",
+    "description": "Promote your blog posts, case studies, and product announcements with branded videos."
+  }
+},
+{
+  "model": "web.marketingfeature",
+  "pk": 2,
+  "fields": {
+    "image": "marketings/usecase-illustration-agencies.svg",
+    "title": "Marketing",
+    "description": "Promote your blog posts, case studies, and product announcements with branded videos."
+  }
+},
+{
+  "model": "web.marketingfeature",
+  "pk": 3,
+  "fields": {
+    "image": "marketings/usecase-illustration-internal-communications.svg",
+    "title": "Marketing",
+    "description": "Promote your blog posts, case studies, and product announcements with branded videos."
+  }
+},
+{
+  "model": "web.marketingfeature",
+  "pk": 4,
+  "fields": {
+    "image": "marketings/usecase-illustration-marketing_V49Br3n.svg",
+    "title": "Marketing",
+    "description": "Promote your blog posts, case studies, and product announcements with branded videos."
+  }
+},
+{
+  "model": "web.marketingfeature",
+  "pk": 5,
+  "fields": {
+    "image": "marketings/usecase-illustration-news-editorial.svg",
+    "title": "Marketing",
+    "description": "Promote your blog posts, case studies, and product announcements with branded videos."
+  }
+},
+{
+  "model": "web.marketingfeature",
+  "pk": 6,
+  "fields": {
+    "image": "marketings/usecase-illustration-other-services.svg",
+    "title": "Marketing",
+    "description": "Promote your blog posts, case studies, and product announcements with branded videos."
+  }
+},
+{
+  "model": "web.product",
+  "pk": 1,
+  "fields": {
+    "image": "products/images/studio-card.png",
+    "title": "Studio",
+    "description": "Create professional short form video with the online video editor that anyone can master.",
+    "logo": "products/logos/Studio-icon.svg"
+  }
+},
+{
+  "model": "web.product",
+  "pk": 2,
+  "fields": {
+    "image": "products/images/lightbox-card.png",
+    "title": "Lightbox",
+    "description": "Engage your website or app users with a built-in custom video creation interface.",
+    "logo": "products/logos/Lightbox-icon.svg"
+  }
+},
+{
+  "model": "web.product",
+  "pk": 3,
+  "fields": {
+    "image": "products/images/wavi-card.png",
+    "title": "Wavi",
+    "description": "Scale video by automatically producing from text content or data with our API.",
+    "logo": "products/logos/Wavi-icon.svg"
+  }
+},
+{
+  "model": "web.blog",
+  "pk": 1,
+  "fields": {
+    "image": "blogs/Blog-video-attention-span-2.jpg",
+    "title": "6 best video practices for capturing audiences� 8-second attention span",
+    "content_type": "blog_post"
+  }
+},
+{
+  "model": "web.blog",
+  "pk": 2,
+  "fields": {
+    "image": "blogs/Webinar-Ceros-Thumbnail.jpg",
+    "title": "Wibbitz + Ceros: Improving content marketing through visual storytelling",
+    "content_type": "webinar"
+  }
+},
+{
+  "model": "web.blog",
+  "pk": 3,
+  "fields": {
+    "image": "blogs/2019-Q3-Instagram-Report-EN-Thumbnail.png",
+    "title": "Explore Instagram Video: How to convert, engage, and get more Instagram followers with video",
+    "content_type": "report"
+  }
+},
+{
+  "model": "web.contact",
+  "pk": 1,
+  "fields": {
+    "email": "sobir@example.com",
+    "first_name": "Sobir",
+    "last_name": "N",
+    "company": "Talrop",
+    "company_size": "2",
+    "industry": "3",
+    "job_role": "1",
+    "country": "us",
+    "user_agreement": false
+  }
+},
+{
+  "model": "web.contact",
+  "pk": 2,
+  "fields": {
+    "email": "abc@example.com",
+    "first_name": "ABC",
+    "last_name": "DEF",
+    "company": "XYZ",
+    "company_size": "1",
+    "industry": "1",
+    "job_role": "1",
+    "country": "us",
+    "user_agreement": true
+  }
+}
+]

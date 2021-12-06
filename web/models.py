@@ -44,6 +44,7 @@ class Subscribe(models.Model):
 
 
 class Customer(models.Model):
+    product = models.ForeignKey("web.Product",on_delete=models.CASCADE)
     name = models.CharField(max_length=255)
     image = models.FileField(upload_to="customers/")
     white_logo = models.FileField(upload_to="customers/",blank=True,null=True)
@@ -121,7 +122,10 @@ class MarketingFeature(models.Model):
 
 class Product(models.Model):
     image = models.FileField(upload_to="products/images/") 
+    hero_image = models.FileField(upload_to="products/hero_images/") 
+    background_color = models.CharField(max_length=128)
     title = models.CharField(max_length=255)
+    name = models.CharField(max_length=128) 
     description = models.TextField()
     logo = models.FileField(upload_to="products/logos/")
 
@@ -130,7 +134,7 @@ class Product(models.Model):
         ordering=["id"]
 
     def __str__(self):
-        return self.title
+        return self.name
 
 
 class Blog(models.Model):

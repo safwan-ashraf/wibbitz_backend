@@ -1,6 +1,6 @@
 import json
 
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.urls import reverse
 from django.http.response import HttpResponse
 
@@ -68,7 +68,6 @@ def contact(request):
     if form.is_valid():
         form.save()
 
-
         response_data = {
             "status" : "success",
             "title" : "Successfully registered",
@@ -82,6 +81,17 @@ def contact(request):
         }
     
     return HttpResponse(json.dumps(response_data),content_type="application/javascript")
+
+
+
+def product(request,pk):
+    product = get_object_or_404(Product.objects.filter(pk=pk))
+    customers = Customer.objects.filter(product=product)
+    context = {
+        "product" : product,
+        "customers" : customers
+    }
+    return render(request,"product.html",context=context)
 
 
 
